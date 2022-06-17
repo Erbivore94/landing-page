@@ -98,3 +98,45 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/* ----- Information-container style ----- */
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 48px 96px 48px;
+}
+
+.information-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.information-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+    padding: 48px;
+}
+
+.information-item {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    width: 200px;
+}
+
+.information-image {
+    height: 200px;
+    width: 200px;
+    border: 5px solid;
+    border-color: #3882F6;
+    border-radius: 25px;
+}
+
+.information-text {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 18px;
+}
