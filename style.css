@@ -68,7 +68,7 @@ body {
 
 .hero-main-text {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -87,7 +87,7 @@ body {
     background-color: #3882F6;
     color:#E5E7EB;
     font-size: 18px;
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 .hero-image-placeholder {
