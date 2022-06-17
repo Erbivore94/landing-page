@@ -54,9 +54,29 @@ body {
 
 .hero-container {
     display: flex;
+    padding: 128px 0;
+    gap: 48px;
 }
 
 .hero-left {
     display: flex;
+    flex: 1;
     flex-direction: column;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text, .hero-image-placeholder {
+    font-size: 18px;
+    color:#E5E7EB
+}
+
+.hero-image-placeholder {
+    background-color: grey;
+    height: 250px;
+    width: 400px;
 }
