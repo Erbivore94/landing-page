@@ -7,6 +7,8 @@ body {
     flex-direction: column;
 }
 
+/* ----- General style for header and hero divs ----- */
+
 .header-and-hero {
     display: flex;
     flex-direction: column;
@@ -20,6 +22,8 @@ body {
 .right {
     margin-right: 128px;
 }
+
+/* ----- Header style ----- */
 
 .header {
     display: flex;
@@ -45,3 +49,5 @@ body {
     color: #E5E7EB;
     list-style-type: none;
 }
+
+/* ----- Hero style ----- */
