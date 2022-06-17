@@ -51,3 +51,12 @@ body {
 }
 
 /* ----- Hero style ----- */
+
+.hero-container {
+    display: flex;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+}
