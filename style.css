@@ -148,8 +148,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 96px 548px;
+    padding: 96px 96px;
     background: #E5E7EB;
+}
+
+.quote, .quote-author {
+    width: 720px;
 }
 
 .quote {
