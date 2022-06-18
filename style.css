@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,300&display=swap');
 
 body {
     margin: 0;
@@ -139,4 +139,28 @@ body {
     margin-top: 8px;
     text-align: center;
     font-size: 18px;
+}
+
+/* ----- Quote container style ----- */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 548px;
+    background: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: left;
+}
+
+.quote-author {
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 700;
 }
