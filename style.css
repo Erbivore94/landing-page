@@ -176,9 +176,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 48px 456px;
+    padding: 72px;
+}
+
+.call-to-action {
+    display: flex;
     padding: 36px 92px;
+    width: 920px;
     background-color: #3882F6;
+    border-radius: 10px;
 }
 
 .call-to-action-left {
@@ -201,13 +207,14 @@ body {
 .call-to-action-button {
     width: 120px;
     padding: 8px;
+    align-self: center;
+
     border-radius: 10px;
     border: solid #F9FAF8;
     border-width: 2px;
     background-color: #3882F6;
 
     color:#F9FAF8;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
-
 }
